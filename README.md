@@ -12,6 +12,17 @@
 ## 其他脚本
 
 * [redis、nginx、lua](https://github.com/wenruo95/tools/blob/master/shell/installredis-nginx.sh)
+	
+启动redis服务器
+
+	redis-server ~/Git/tools/config/redis.config
+
+客户端连接
+
+	redis-cli
+	auth password
+
+
 
 * [git](https://github.com/wenruo95/tools/blob/master/shell/installgit.sh)
 
