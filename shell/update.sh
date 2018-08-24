@@ -8,7 +8,7 @@ do
 	fi
 	if test -d $file
 	then
-		#echo $file 是目录
-		cd ~/Git/ && cd $file && git pull && git status
+		echo $file 目录:
+		cd $file && git pull && git status
 	fi
 done
